@@ -1,8 +1,8 @@
-<?php namespace Emery\Component\TheGeneral;
+<?php
+
+namespace Hazbo\TheGeneral;
 
 interface ProcessorInterface
 {
 	
 }
-
-?>

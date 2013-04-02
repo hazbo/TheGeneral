@@ -1,4 +1,6 @@
-<?php namespace Emery\Component\TheGeneral;
+<?php
+
+namespace Hazbo\TheGeneral;
 
 class ArrayProcessors_Json_Parser implements ArrayProcessors_GeneralInterface
 {
@@ -24,5 +26,3 @@ class ArrayProcessors_Json_Parser implements ArrayProcessors_GeneralInterface
 		return $this->parsedData;
 	}
 }
-
-?>

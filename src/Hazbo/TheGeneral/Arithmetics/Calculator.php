@@ -1,4 +1,6 @@
-<?php namespace Emery\Component\TheGeneral;
+<?php
+
+namespace Hazbo\TheGeneral;
 
 class Arithmetics_Calculator
 {
@@ -39,8 +41,7 @@ class Arithmetics_Calculator
 	public function __construct($fileType = 'json')
 	{
 		$arrayProcessorDynamicClassName
-			= '\Emery'
-			. '\Component'
+			= '\Hazbo'
 			. '\TheGeneral'
 			. '\ArrayProcessors'
 			. '_' . ucfirst($fileType) . '_'
@@ -70,5 +71,3 @@ class Arithmetics_Calculator
 		return $this->dataInputArray = $newDataInputArray;
 	}
 }
-
-?>

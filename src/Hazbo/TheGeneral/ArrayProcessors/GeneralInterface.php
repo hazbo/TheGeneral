@@ -1,4 +1,6 @@
-<?php namespace Emery\Component\TheGeneral;
+<?php
+
+namespace Hazbo\TheGeneral;
 
 interface ArrayProcessors_GeneralInterface
 {
@@ -6,5 +8,3 @@ interface ArrayProcessors_GeneralInterface
 	public  function parseToObject($jsonString);
 	public  function getData();
 }
-
-?>

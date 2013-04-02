@@ -1,4 +1,6 @@
-<?php namespace Emery\Component\TheGeneral;
+<?php
+
+namespace Hazbo\TheGeneral;
 
 class Resources_Loader
 {
@@ -14,5 +16,3 @@ class Resources_Loader
 		$this->fileContents = file_exists($jsonFilePath) ? file_get_contents($jsonFilePath) : false;
 	}
 }
-
-?>

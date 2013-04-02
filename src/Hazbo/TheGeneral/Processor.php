@@ -1,4 +1,6 @@
-<?php namespace Emery\Component\TheGeneral;
+<?php
+
+namespace Hazbo\TheGeneral;
 
 class Processor implements ProcessorInterface
 {
@@ -39,5 +41,3 @@ class Processor implements ProcessorInterface
 		return $this->fileType = $newFileType;
 	}
 }
-
-?>
