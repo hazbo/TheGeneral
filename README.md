@@ -44,7 +44,7 @@ Here we have 4 types of films. Each film has various attributes, and we score
 those attributes using an integer. You can use your own system for how big or little
 the number is. An easy way is to stick to 1 - 100. But you can use any range.
 
-	use Emery\Component\TheGeneral;
+	use Hazbo\TheGeneral;
 
 	$general = new TheGeneral\Processor();
 	$loader  = $general->createLoader();
