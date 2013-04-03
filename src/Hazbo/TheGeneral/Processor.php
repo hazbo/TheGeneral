@@ -24,7 +24,7 @@ class Processor implements ProcessorInterface
 
 	public function digest($loader)
 	{
-		$this->fileContents = $loader->getFileContents();
+		return $this->fileContents = $loader->getFileContents();
 	}
 
 	public function score($dataInput)
