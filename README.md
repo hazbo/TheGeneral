@@ -62,6 +62,7 @@ the number is. An easy way is to stick to 1 - 100. But you can use any range.
 	));
 
 	echo $result->getCategoryName();
+	// returns 'horror'
 
 So in the example above, we return the category name, and in this case, using the data we have, the result
 is 'horror'.
