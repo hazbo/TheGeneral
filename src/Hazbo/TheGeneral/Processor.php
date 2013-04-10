@@ -4,10 +4,11 @@ namespace Hazbo\TheGeneral;
 
 class Processor implements ProcessorInterface
 {
-	private $loader;
-	private $binder;
-	private $fileContents;
-	private $fileType;
+	private
+		$loader,
+		$binder,
+		$fileContents,
+		$fileType;
 
 	public function __construct()
 	{

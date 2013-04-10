@@ -4,10 +4,11 @@ namespace Hazbo\TheGeneral;
 
 class Arithmetics_Calculator
 {
-	private $setupArray;
-	private $dataInputArray;
-	private $arrayProcessorClass;
-	private $orderedResults;
+	private
+		$setupArray,
+		$dataInputArray,
+		$arrayProcessorClass,
+		$orderedResults;
 
 	private function prepareForBinding()
 	{
